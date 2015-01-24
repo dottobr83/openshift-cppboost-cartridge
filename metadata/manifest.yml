@@ -7,7 +7,7 @@ Source-Url: https://github.com/luan-cestari/openshift-cppboost-cartridge.git
 License: GPLv3
 License-Url: http://www.gnu.org/licenses/gpl.html
 Cartridge-Version: '0.0.1'
-Cartridge-Vendor: luan-cestari
+Cartridge-Vendor: lcestari
 Categories:
   - service
   - web_framework
