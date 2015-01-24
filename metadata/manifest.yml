@@ -1,5 +1,5 @@
 Name: cpp-boost
-Cartridge-Short-Name: CPP-BOOST
+Cartridge-Short-Name: CPPBOOST
 Display-Name: OpenShift c++ with boost Cartridge
 Description: "A cartridge that provides the ability to upload c++ code with boost dependencies and compile"
 Version: '1'
