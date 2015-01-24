@@ -1,19 +1,18 @@
-Name: cpp
-Cartridge-Short-Name: CPP
-Display-Name: OpenShift c++ Cartridge
-Description: "A cartridge that provides the ability to upload c++ code and compile & run it using CMAKE"
+Name: cpp-boost
+Cartridge-Short-Name: CPP-BOOST
+Display-Name: OpenShift c++ with boost Cartridge
+Description: "A cartridge that provides the ability to upload c++ code with boost dependencies and compile"
 Version: '1'
-Source-Url: https://github.com/developercorey/openshift-cpp-cartridge.git
-License: LGPL
-License-Url: http://www.gnu.org/copyleft/lesser.txt
-Vendor: cmake
+Source-Url: https://github.com/luan-cestari/openshift-cppboost-cartridge.git
+License: GPLv3
+License-Url: http://www.gnu.org/licenses/gpl.html
 Cartridge-Version: '0.0.1'
-Cartridge-Vendor: developercorey
+Cartridge-Vendor: luan-cestari
 Categories:
   - service
   - web_framework
   - cpp
-Website: http://github.com/developercorey/openshift-cpp-cartridge
+Website: https://github.com/luan-cestari/openshift-cppboost-cartridge
 Help-Topics:
   "Developer Center": https://www.openshift.com/developers
 Cart-Data:
@@ -48,7 +47,7 @@ Cart-Data:
     Type: environment
     Description: "Unique ID which identified the gear. This value changes between gears."
 Provides:
-  - cpp
+  - cppboost
 Publishes:
   publish-http-url:
     Type: "NET_TCP:httpd-proxy-info"
